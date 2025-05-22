@@ -1,0 +1,134 @@
+21-May-2521:19:28 - INFO - La page d'accueil a été chargée.
+21-May-2521:19:43 - WARNING - Not Found: /forms/
+21-May-2521:20:36 - WARNING - Not Found: /accounts/login/
+21-May-2521:21:09 - WARNING - Not Found: /accounts/login/
+21-May-2521:21:25 - WARNING - Not Found: /update_dvd/
+21-May-2521:38:37 - INFO - La page d'accueil a été chargée.
+21-May-2521:38:37 - WARNING - Not Found: /favicon.ico
+21-May-2521:39:32 - WARNING - Not Found: /forms/
+21-May-2521:39:32 - WARNING - Not Found: /favicon.ico
+21-May-2521:46:37 - INFO - La page d'accueil a été chargée.
+21-May-2521:47:08 - INFO - La page d'accueil a été chargée.
+21-May-2521:47:24 - INFO - La page d'accueil a été chargée.
+21-May-2521:48:47 - INFO - La page d'accueil a été chargée.
+21-May-2521:48:49 - INFO - La page biliothequaire est chargé
+21-May-2521:49:19 - INFO - Le livre harry potteur a été ajouté
+21-May-2521:49:19 - INFO - La page biliothequaire est chargé
+21-May-2521:49:28 - ERROR - Internal Server Error: /emprunt/1/
+Traceback (most recent call last):
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'emprunteur'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Gestion_Mediatheque\gestion_mediatheque\views.py", line 259, in emprunt
+    emprunteur = Membre.objects.get(pk=request.POST['emprunteur'])
+                                       ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'emprunteur'
+21-May-2521:50:01 - ERROR - Internal Server Error: /emprunt/1/
+Traceback (most recent call last):
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'emprunteur'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Gestion_Mediatheque\gestion_mediatheque\views.py", line 259, in emprunt
+    emprunteur = Membre.objects.get(pk=request.POST['emprunteur'])
+                                       ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'emprunteur'
+21-May-2521:52:29 - INFO - La page d'accueil a été chargée.
+21-May-2521:54:28 - INFO - La page d'accueil a été chargée.
+21-May-2521:54:30 - INFO - La page biliothequaire est chargé
+21-May-2521:54:40 - ERROR - Internal Server Error: /emprunt/1/
+Traceback (most recent call last):
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'emprunteur'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Gestion_Mediatheque\gestion_mediatheque\views.py", line 259, in emprunt
+    emprunteur = Membre.objects.get(pk=request.POST['emprunteur'])
+                                       ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\hanon\Desktop\Gestion_Mediatheque\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'emprunteur'
+21-May-2521:54:58 - INFO - La page biliothequaire est chargé
+21-May-2521:55:01 - INFO - Utilisateur déconnecté
+21-May-2521:55:01 - INFO - La page d'accueil a été chargée.
+21-May-2521:55:16 - INFO - Utilisateur admin connecté
+21-May-2521:55:16 - INFO - La page biliothequaire est chargé
+21-May-2521:55:21 - INFO - Utilisateur déconnecté
+21-May-2521:55:21 - INFO - La page d'accueil a été chargée.
+21-May-2521:55:31 - ERROR - L'utilisateur n'a pas pus être connecté
+21-May-2521:55:31 - INFO - La page d'accueil a été chargée.
+21-May-2521:55:57 - ERROR - L'utilisateur n'a pas pus être connecté
+21-May-2521:55:57 - INFO - La page d'accueil a été chargée.
+21-May-2521:56:04 - WARNING - Not Found: /accounts/login/
+22-May-2500:32:25 - INFO - La page d'accueil a été chargée.
+22-May-2500:33:11 - WARNING - Not Found: /forms/
+22-May-2500:33:16 - INFO - La page biliothequaire est chargé
+22-May-2500:33:23 - INFO - Le livre harry potteur a été supprimé
+22-May-2500:33:23 - INFO - La page biliothequaire est chargé
+22-May-2500:33:37 - INFO - Le membre :  a été créé
+22-May-2500:33:37 - INFO - La page biliothequaire est chargé
+22-May-2500:33:51 - INFO - Le CD acdc a été ajouté
+22-May-2500:33:51 - INFO - La page biliothequaire est chargé
+22-May-2500:33:57 - INFO - Maxime a emprunté le media : acdc
+22-May-2500:33:57 - INFO - La page biliothequaire est chargé
+22-May-2500:34:36 - INFO - Le membre Maximea été supprimé.
+22-May-2500:34:36 - INFO - La page biliothequaire est chargé
+22-May-2513:20:33 - INFO - La page d'accueil a été chargée.
+22-May-2513:20:40 - INFO - La page d'accueil a été chargée.
+22-May-2513:20:42 - INFO - La page biliothequaire est chargé
+22-May-2513:20:46 - INFO - La page d'accueil a été chargée.
+22-May-2513:20:48 - INFO - La page biliothequaire est chargé
+22-May-2513:20:49 - INFO - Utilisateur déconnecté
+22-May-2513:20:49 - INFO - La page d'accueil a été chargée.
+22-May-2513:20:59 - INFO - Utilisateur bibliothequaire connecté
+22-May-2513:20:59 - INFO - La page biliothequaire est chargé
+22-May-2513:21:07 - INFO - Le media acdc  a été rentré
+22-May-2513:21:07 - INFO - La page biliothequaire est chargé
+22-May-2513:21:24 - INFO - Le CD acdc a été supprimé
+22-May-2513:21:24 - INFO - La page biliothequaire est chargé
+22-May-2513:21:28 - INFO - Utilisateur déconnecté
+22-May-2513:21:28 - INFO - La page d'accueil a été chargée.
+22-May-2513:21:45 - INFO - Utilisateur bibliothequaire connecté
+22-May-2513:21:45 - INFO - La page biliothequaire est chargé
+22-May-2513:22:48 - INFO - Utilisateur déconnecté
+22-May-2513:22:48 - INFO - La page d'accueil a été chargée.
+22-May-2513:23:00 - INFO - Utilisateur bibliothequaire connecté
+22-May-2513:23:00 - INFO - La page biliothequaire est chargé
+22-May-2513:23:16 - INFO - Le membre :  a été créé
+22-May-2513:23:16 - INFO - La page biliothequaire est chargé
+22-May-2513:23:27 - INFO - Le membre John Doe a été modifié.
+22-May-2513:23:27 - INFO - La page biliothequaire est chargé
+22-May-2513:23:37 - INFO - Le membre John Doe a été modifié.
+22-May-2513:23:37 - INFO - La page biliothequaire est chargé
