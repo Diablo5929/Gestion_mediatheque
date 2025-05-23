@@ -132,3 +132,7 @@ django.utils.datastructures.MultiValueDictKeyError: 'emprunteur'
 22-May-2513:23:27 - INFO - La page biliothequaire est chargé
 22-May-2513:23:37 - INFO - Le membre John Doe a été modifié.
 22-May-2513:23:37 - INFO - La page biliothequaire est chargé
+23-May-2515:43:33 - INFO - La page d'accueil a été chargée.
+23-May-2515:43:33 - WARNING - Not Found: /favicon.ico
+23-May-2515:43:38 - INFO - La page biliothequaire est chargé
+23-May-2515:43:38 - WARNING - Not Found: /favicon.ico
