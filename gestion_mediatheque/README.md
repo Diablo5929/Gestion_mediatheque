@@ -16,3 +16,5 @@
 
     Accéder à l'application : Ouvrez un navigateur et allez à http://127.0.0.1:8000 
 
+    Acces bibliothequaire: id=bibliothequaire
+                           Mot de passe: admin1234
